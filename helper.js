@@ -15,7 +15,7 @@ function createChatbox(elementId) {
   iframe.style.position = "fixed";
   iframe.style.bottom = "0";
   iframe.style.right = "80px";
-  iframe.style.zIndex = "999999999999";
+  iframe.style.zIndex = "99999999999";
 
   element.appendChild(iframe);
 }
