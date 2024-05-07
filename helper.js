@@ -8,6 +8,7 @@ function createChatbox(elementId) {
   let iframe = document.createElement("iframe");
 
   iframe.src = "https://phukoika.github.io/Chatbox-Helper/";
+  iframe.setAttribute = ("id", "widget-frame");
   iframe.width = "370";
   iframe.height = "500";
   iframe.style.border = "none";
